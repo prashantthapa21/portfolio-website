@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read Prashant Thapa's learning journal, data analysis insights, and career growth notes."
+    />
+    <title>Blog | Prashant LMC Thapa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar" id="top">
+        <nav class="nav container" aria-label="Main navigation">
+          <a href="index.html#home" class="brand" aria-label="Prashant LMC home">
+            <span class="brand-mark">P</span>
+            <span class="brand-text">Prashant Thapa</span>
+          </a>
+
+          <div class="nav-menu" aria-label="Main navigation links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="journey.html">Journey</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="nav-actions">
+            <a class="button button-primary button-small" href="assets/Prashant_LMC_Thapa_CV.pdf" download>
+              Download CV
+            </a>
+            <button class="theme-toggle" type="button" aria-label="Toggle color mode">
+              <span class="toggle-track">
+                <span class="toggle-thumb"></span>
+              </span>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main class="article-page">
+        <div class="container article-shell">
+          <article class="article-card">
+            <span class="article-meta">Learning Journal</span>
+            <h1>Blog</h1>
+            <p class="article-intro">
+              A space where I document what I am learning, the ideas I am exploring, and the habits that are helping me build a future in data analytics.
+            </p>
+          </article>
+
+          <div class="blog-toolbar card-panel">
+            <div class="blog-filter-group" aria-label="Blog categories">
+              <button class="blog-filter is-active" type="button" data-filter="all">All</button>
+              <button class="blog-filter" type="button" data-filter="Data Analysis">Data Analysis</button>
+              <button class="blog-filter" type="button" data-filter="Excel">Excel</button>
+              <button class="blog-filter" type="button" data-filter="Career Growth">Career Growth</button>
+            </div>
+
+            <label class="blog-search" aria-label="Search blog posts">
+              <span class="sr-only">Search blog posts</span>
+              <input id="blog-search" type="search" placeholder="Search posts..." />
+            </label>
+          </div>
+
+          <div id="blog-page-grid" class="blog-grid blog-page-grid" aria-live="polite"></div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <p>© <span id="year"></span> Prashant LMC Thapa</p>
+          <p>Building a future in Data Analytics.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
