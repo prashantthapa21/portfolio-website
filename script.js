@@ -50,11 +50,11 @@ const portfolioData = {
   skills: [
     {
       title: 'Data Analysis',
-      items: ['Data cleaning', 'Data wrangling', 'Exploratory analysis', 'Basic statistics', 'Business insight communication']
+      items: ['Data cleaning', 'Exploratory data analysis', 'Basic statistics', 'Data visualization', 'Insight communication']
     },
     {
       title: 'Tools',
-      items: ['Excel', 'Google Sheets', 'SQL', 'Python', 'Power BI / dashboards']
+      items: ['Excel', 'Google Sheets', 'SQL', 'Python', 'Power BI']
     },
     {
       title: 'Core strengths',
@@ -70,21 +70,21 @@ const portfolioData = {
       tag: 'Dashboard',
       status: 'In Progress',
       title: 'Air Quality Insight Dashboard',
-      description: 'A simple analysis project exploring air quality trends, pollution patterns, and regional comparisons using cleaned data and visualization.',
+      description: 'A data-analysis project exploring air-quality trends, pollution patterns, and regional comparisons through cleaning, analysis, and visualization.',
       bullets: ['Data cleaning and transformation', 'Trend analysis', 'Dashboard storytelling']
     },
     {
       tag: 'Analytics',
       status: 'Learning',
       title: 'Student Performance Study',
-      description: 'An academic data project analyzing performance patterns, subject difficulty, and learning outcomes to draw meaningful conclusions.',
+      description: 'An education-focused analysis exploring student performance patterns, subject-level results, and learning outcomes.',
       bullets: ['Spreadsheet analysis', 'Visualization', 'Insight summary']
     },
     {
       tag: 'Report',
       status: 'Planned',
       title: 'Sales Trend Analysis',
-      description: 'A business-facing data project focused on identifying sales patterns, category performance, and recommendations based on historical values.',
+      description: 'A planned business-analysis case study focused on sales patterns, category performance, and decision-support insights.',
       bullets: ['Dataset processing', 'Metric thinking', 'Decision support']
     }
   ],

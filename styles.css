@@ -1033,3 +1033,63 @@ body.light .contact-form textarea {
   color: var(--primary);
   font-weight: 700;
 }
+
+
+/* Professional portfolio refinements */
+.hero-note {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  margin-top: 1.25rem;
+  color: var(--text-soft);
+  font-size: .88rem;
+  font-weight: 600;
+}
+.hero-note-dot {
+  width: .55rem;
+  height: .55rem;
+  border-radius: 50%;
+  background: #55d68b;
+  box-shadow: 0 0 0 5px rgba(85,214,139,.10);
+}
+.hero-copy h1 {
+  text-wrap: balance;
+}
+.project-card,
+.skill-card,
+.experience-card,
+.blog-card,
+.stat-card {
+  transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+.project-card:hover,
+.skill-card:hover,
+.experience-card:hover,
+.blog-card:hover,
+.stat-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(78,167,255,.28);
+}
+.section-heading {
+  position: relative;
+}
+.section-heading::after {
+  content: "";
+  display: block;
+  width: 3.2rem;
+  height: 3px;
+  margin-top: 1rem;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--primary), var(--cyan));
+}
+.footer-inner p {
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .hero-copy h1 {
+    font-size: clamp(2.45rem, 12vw, 4rem);
+  }
+  .profile-card {
+    min-height: 500px;
+  }
+}
